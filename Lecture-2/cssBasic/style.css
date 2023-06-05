@@ -1,0 +1,22 @@
+
+/* h1{
+    color: rgb(107, 47, 47);
+} */
+
+/* #sam{
+    color: palevioletred;
+}
+
+#sudhanshu{
+    color: palegoldenrod;
+}
+
+.sudhanshu{
+    font-size: 40px;
+    font-family: cursive;
+} */
+
+/* universal selector */
+*{
+    border: 2px solid black;
+}
