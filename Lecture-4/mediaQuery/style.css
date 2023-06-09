@@ -1,0 +1,104 @@
+body{
+    background-color: antiquewhite;
+}
+
+div{
+    padding: 10px;
+    width: 30%;
+    margin: 10px auto;
+    border: 2px solid black;
+}
+h2{
+    text-align: center;
+}
+
+
+/* @media print and (width:800px){ */
+/* @media screen and (max-width:800px){ */
+/* @media screen and (min-width:800px){ */
+/* @media all and (max-width:800px){
+
+    body{
+        background-color: aquamarine;
+    }
+
+} */
+
+
+
+/* @media all and (orientation:portrait){ */
+/* @media all and (orientation:portrait) , (max-width:600px){
+
+    body{
+        background-color: rgb(224, 235, 134);
+    }
+    h2{
+        font-size: 6px;
+    }
+
+} */
+
+
+/* multiple media queries */
+@media all and  (max-width:1200px){
+
+    body{
+        background-color: rgb(224, 235, 134);
+    }
+
+}
+@media all and  (max-width:991px){
+
+    body{
+        background-color: rgb(134, 180, 235);
+    }
+
+}
+@media all and  (max-width:767px){
+
+    body{
+        background-color: rgb(235, 134, 215);
+    }
+
+}
+@media all and  (max-width:576px){
+
+    body{
+        background-color: rgb(8, 43, 48);
+    }
+
+}
+
+
+
+/* for min width */
+
+@media all and  (min-width:576px){
+
+    body{
+        background-color: rgb(224, 235, 134);
+    }
+
+}
+@media all and  (min-width:767px){
+
+    body{
+        background-color: rgb(134, 180, 235);
+    }
+
+}
+@media all and  (min-width:991px){
+
+    body{
+        background-color: rgb(235, 134, 215);
+    }
+
+}
+@media all and  (min-width:1200px){
+
+    body{
+        background-color: rgb(8, 43, 48);
+    }
+
+}
+
