@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    background-color: #1c1c1c;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container{
+    width: 400px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    background-color: #1c1c1c ;
+    border: 0;
+    outline: none;
+    font-size: 60px;
+    color: white;
+    text-align: right;
+    padding: 0px 32px;
+    flex-grow: 1;
+
+}
+
+.button-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    gap: 5px;
+    flex-grow: 2;
+}
+
+button{
+    width: 80%;
+    height: 80%;
+    place-self: center;
+    border-radius: 50%;
+    border: 0;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #505050;
+    color: white;
+    transition-property: transform;
+    transition-duration: 300ms;
+}
+
+button:active{
+    transform: scale(0.8);
+}
+
+.gray-button{
+    background-color: #d4d4d2;
+    color: black;
+
+}
+.yellow-btn{
+    background-color: #eeab0e;
+}
+
+.merge{
+    grid-column: span 2;
+    border-radius: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
