@@ -21,9 +21,9 @@ function fetchData(searchText){
 
 function manipulateDom(datas){
 
-    // while(list.firstChild){
-    //     list.firstChild.remove();
-    // }
+    while(list.firstChild){
+        list.firstChild.remove();
+    }
 
     for(let data of datas){
         let figure = document.createElement('figure');
